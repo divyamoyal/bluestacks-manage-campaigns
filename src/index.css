@@ -5,9 +5,81 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #556789;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+  color: #32406f;
+}
+
+hr {
+  margin: 0;
+  color: grey;
+}
+
+/* Common classes */
+
+.grey {
+  color: grey;
+}
+
+.small {
+  font-size: 0.75rem;
+}
+
+.medium {
+  font-size: 0.875rem;
+}
+
+.large {
+  font-size: 1rem;
+
+}
+.xlarge {
+  font-size: 1.125rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.weight-5 {
+  font-weight: 500;
+}
+
+.weight-6 {
+  font-weight: 600;
+}
+
+/* classes for spacing */
+
+.mt1 {
+  margin-top: 0.625rem;
+}
+
+.mt2 {
+  margin-top: 1.25rem;
+}
+
+.mt3 {
+  margin-top: 1.875rem;
+}
+
+.mb1 {
+  margin-bottom: 0.625rem;
+}
+
+.mb2 {
+  margin-bottom: 1.25rem;
+}
+
+.mb3 {
+  margin-bottom: 1.875rem;
 }
